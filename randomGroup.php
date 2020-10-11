@@ -26,7 +26,6 @@
 			</div>
 		</br>
 			<input type="submit" name="submit" class= "btn btn-success btn-block" value="提交">
-
 		</form>	
 	</div>
 	</center>
@@ -53,13 +52,10 @@
 				$k++;
 				}
 				echo "</tr>";
-				
 			}
 			echo "</table>";
 			echo "<hr style='FILTER: alpha(opacity=100,finishopacity=0,style=3)' width='80%' color=#000000 SIZE=3>";
 		}
-		// randomGroup(1,33,8);
-		// randomGroup(1,24,8);
 		$max = $_POST['max'];//传输终值
 		$min = $_POST['min'];//传输起始值
 		$group = $_POST['group'];//传输没组人数
